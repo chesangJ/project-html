@@ -1,0 +1,281 @@
+body,html{
+    background-image: url(/project\ meeting.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.LOGO{
+    display: flex;
+    gap: 2%;
+}
+   
+.blaze{
+    color: white;
+}
+.t1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200%;
+}
+.t2{
+    font-weight: initial;
+    font-size: small;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contact{
+    display: flex;
+    gap:2%;
+    margin-right: 10%;
+}
+.icon{
+    border: solid;
+background-color: orange;
+    border-radius: 100%;
+    border-color: orange;
+    
+    padding: 17px;
+    margin-top: 5%;
+    color: white;
+    
+    
+}
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20%;
+    margin-right: 10%;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.t3{
+    color: white;
+    margin-top: 8%;
+    
+}
+li,a{
+    color:white ;
+   
+    
+}
+li,a:hover{
+    transition: all 0.3s ease 0s;
+    color: yellow;
+
+}
+.welcome{
+    margin-left: 40%;
+    color: orange;
+    margin-top: 30%;
+    font-weight: 500%;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.t4{
+    margin-left: 25%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 400%;
+    text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.t5{
+    margin-left: 40%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t6{
+    margin-left: 23%;
+    color: white;
+    font-weight: 500%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t7{
+    margin-left: 40%;
+    color: white;
+    font-weight: 500%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b1{
+    border-radius: 20px;
+    padding: 10px 40px 10px 20px;
+    background-color:orange ;
+    color: white;
+    border-color: orange;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 38%;
+
+}
+.b2{
+
+    border: solid;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 30px 8px 20px;
+    border-width:0.5%;
+
+
+}
+.icon1{
+    list-style-type: none;
+    
+}
+@media only screen and (max-width:700px){
+    body,html{
+        background-image: url(/project\ meeting.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .LOGO{
+        display: flex;
+        gap: 2%;
+    }
+       
+    .blaze{
+        color: white;
+    }
+    .t1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 200%;
+    }
+    .t2{
+        font-weight: initial;
+        font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .contact{
+        display: flex;
+        gap:2%;
+        margin-right: 10%;
+    }
+    .icon{
+        border: solid;
+    background-color: orange;
+        border-radius: 100%;
+        border-color: orange;
+        margin-right: 10%;
+        padding: 17px;
+        margin-top: 5%;
+        color: white;
+        
+        
+    }
+    .navigation {
+        list-style-type: none;
+        display: flex;
+        
+        margin-right: 20%;
+        
+        
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .t3{
+        color: white;
+        margin-top: 8%;
+        
+    }
+    li,a{
+        color:white ;
+       
+        
+    }
+    li,a:hover{
+        transition: all 0.3s ease 0s;
+        color: yellow;
+    
+    }
+    .welcome{
+        margin-left: 20%;
+        color: orange;
+        margin-top: 30%;
+        font-weight: 500%;
+        font-size: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .t4{
+        margin-left: 25%;
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        font-size: 400%;
+        text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .t5{
+        margin-left: 20%;
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        font-size: 400%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .t6{
+        margin-left: 13%;
+        color: white;
+        font-weight: 500%;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .t7{
+        margin-left: 20%;
+        color: white;
+        font-weight: 500%;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .b1{
+        border-radius: 20px;
+        padding: 10px 40px 10px 20px;
+        background-color:orange ;
+        color: white;
+        border-color: orange;
+        cursor: pointer;
+        font-weight: 300;
+        margin-left: 18%;
+    
+    }
+    .b2{
+    
+        border: solid;
+        color: white;
+        border-radius: 20px;
+        padding: 8px 30px 8px 20px;
+        border-width:0.5%;
+    
+    
+    }
+    .icon1{
+        list-style-type: none;
+        
+    }
+
+
+}
+
+
+
+    
+
+
+
